@@ -85,7 +85,7 @@ export default class App extends React.Component {
           </div>
           <div className='form-group'>
             <div className='col-sm-offset-2 col-sm-10'>
-              <button name='submit' type='submit' onClick={this.handleClick} className='btn btn-default'>Calculate</button>
+              <button name='submit' type='submit' onClick={this.handleClick} className='btn btn-primary'>Calculate</button>
             </div>
           </div>
           <div name='output' id='output'>{this.state.output}</div>
